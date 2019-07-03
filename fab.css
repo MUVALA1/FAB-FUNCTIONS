@@ -33,7 +33,7 @@ body{
 .input-group-text{
 	background:purple;
 	border: 1px solid purple;
-	margin: 8.5px 5px 3px 0;
+	margin: 8.5px 10px 3px 0;
 	border-top-left-radius:0px !important;
 	border-bottom-left-radius: 0px !important;
 	border-top-right-radius:20px !important;
@@ -43,7 +43,7 @@ body{
 }
 .search-box{
 	display: inline-flex;
-	width: 70%;
+	width: 60%;
 }
 
 .fa-search{
@@ -61,7 +61,7 @@ body{
 .menu-bar ul li{
 	border-left:1px solid #fff;
 	list-style-type: none;
-	padding: 10px 10px;
+	padding: 15px 35px;
 	text-align: center;
 	background-color: orange;
 	cursor: pointer;
