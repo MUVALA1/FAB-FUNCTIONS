@@ -81,7 +81,7 @@ body{
 		height: 118px;
 		border-bottom: 0;
 	}
-	.search-box{
+ 	.search-box{
 		width:100%;
 	}
 	.menu-bar{
@@ -133,6 +133,9 @@ body{
 	background:#ececec;
 	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.5);
 }
+.side-menu a:hover{
+	color: gold;
+}
 .fa-angle-right{
 	margin-top: 4px;
 	margin-right: 8px;
@@ -168,7 +171,7 @@ body{
 
 .slider{
 	margin-left: 15%;
-	padding: 0 10px;
+	padding: 0 50px;
 }
 
 .carousel-indicators{
