@@ -1,0 +1,38 @@
+<!DOCTYPE.html>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title>Booking Form</title>
+</head>
+<body>
+<form action= "destination.html" method="GET">
+<fieldset>
+<legend>Personal Details</legend>
+<label for="name">Username:<input type="text" name="username" id="name" required autofocus placeholder="Your username" pattern="[a-zA-Z]{3,}" title="please enter in more than three letters">
+<label for="email">Email:<input type="text" name="email" id="email" required placeholder="Your Email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter in a valid email address">
+<label for="phone">Phone:<input type="tel" name="phone" id="phone" required placeholder=" Your contact" pattern="[0-9]{3} [0-9]{3}" title="Please enter a phone number">
+	<select name="country" required>
+		<option value=""> </option>
+		<option value="UG">UG</option>
+		<option value="TZ">TZ</option>
+		<option value="KES">KES</option>
+	</select>
+</fieldset>	
+<br>
+<fieldset>
+	<legend>Booking Details</legend>
+	<label for="date"> Booking Date:</label><input id="date" type="date" name="date" min="2013-01-01">
+	<label for="numberOfclients"> numberOfclients:</label><input id="numberOfclients" type="number" name="number of clients" min="1" max="1">
+	<p>Do you require tents</p>
+	<label for="yesTents"> Yes</label><input id="yesTents" type="radio" name="tents" value="yes tents">
+	<label for="noTents"> No</label><input id="noTents" type="radio" name="tents" value="no tents">
+	<br>
+	<label for="decorator">Do you require a decorator</label><input id="decorator" type="checkbox" name="decorator" value="yes" checked>
+	<br>
+	<input type= image src= "FAB-FUNCTIONS/button.png.png"alt="Submit">
+</fieldset>
+</form>
+</body>
+</html>
